@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           margin: 0;
+           padding: 0;
+        }
+        nav {
+            background-color: crimson;
+            color: srgb red green blue;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #681616;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <!--Home section-->
+        <section id="home">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+            <P>I am a web developer and this is who i am</P>
+        </section>
+        <!--Work section-->
+        <section id="Work">
+            <h2>My work</h2>
+            <ul>
+                <li>Tribute page</li>
+                <li>portfolio website</li>
+                <li>landing page</li>
+            </ul>
+            <h3>A sample video</h3>
+            <iframe width="560" height="315" src="https://youtu.be/salY_Sm6mv4">
+            </iframe>
+        </section>
+        <!--Resume section-->
+        <section id="Resume"></section>
+        <h2>Resume</h2>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>skill</th>
+                <th>level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <TD>Intermediate</TD>
+            </tr>
+            <tr>
+                <td>css</td>
+                <td>beginner</td>
+            </tr>
+        </table>
+    </section>
+    <!--Contact section-->
+    <section id="Contact">
+        <h2>contact me</h2>
+        <form action="#">
+            <label for="name">Name: </label>
+            <br>
+            <input type="text" id="name" name="name" required></input>
+            <br>
+            <br>
+            <label for="message">message</label>
+            <br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <br>
+        </form>
+    </section>
+    <!--Footer-->
+    <footer>
+        <p>MY PORTFOLIO</p>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+        </audio>
+    </footer>
+    </body>
+</html>
